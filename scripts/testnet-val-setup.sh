@@ -56,7 +56,7 @@ echo ""
 
 echo "Setting up your validator"
 $DAEMON init --chain-id $CHAIN_ID $YOUR_NAME
-curl http://128.199.249.31:26657/genesis | jq .result.genesis > ~/.regen/config/genesis.json
+curl http://redwood.regen.network:26657/genesis | jq .result.genesis > ~/.regen/config/genesis.json
 
 
 echo "----------Setting config for seed node---------"
